@@ -1,0 +1,24 @@
+// Place all the styles related to the chats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.alert { color: #666; }
+
+.chat_container {
+  margin: 0 auto; 
+  border: 1px solid #ccc; 
+  width: 500px;
+  
+  input[type=text] {
+    width: 80%;
+  }
+}
+
+#chat_room {
+  overflow: auto; 
+  border-bottom: 1px solid #ccc;
+  height: 300px;
+  
+  p.private {
+    font-weight: bold;
+  }
+}
